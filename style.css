@@ -53,12 +53,6 @@ h1 {
     padding: 20px;
 }
 
-.define-col {
-    border: 3px solid black;
-    height: 200px;
-    width: 288px;
-} 
-
 .ninja-card {
     display: flex;
     flex-direction: column;
@@ -99,4 +93,26 @@ i {
 
 .description a {
     color: rgb(0, 119, 255);
+}
+
+.define-col {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px;
+    border: 3px solid black;
+    height: 140px;
+    width: 248px;
+} 
+
+.define-col p {
+    font-size: 32px;
+}
+
+.define-col button {
+    padding: 5px;
+    border-color: black;
+    background-color: #81b86c;
+    box-shadow: 2px 2px black;
+    font-size: 20px;
 }
