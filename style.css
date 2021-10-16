@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: lightgray;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#search {
+    border-color: black;
+    width: 300px;
+    padding: 5px;
+}
+
+.login-btn {
+    border-color: black;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    padding: 5px;
+    width: 80px;
+    box-shadow: 2px 2px black;
+}
+
+#background {
+    display: flex;
+    flex-wrap: wrap;
+    height: 550px;
+    width: 840px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.ninja-col {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid black;
+    height: 205px;
+    width: 480px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.define-col {
+    border: 3px solid black;
+    height: 200px;
+    width: 288px;
+} 
+
+.ninja-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.ninja-card h2, i, p{
+    padding-bottom: 10px;
+}
+
+.ninja-card p {
+    font-size: 23px;
+}
+
+i {
+    font-size: 30px;
+}
+
+.ninja-card button {
+    background-color: #ffc107;
+    border-color: black;
+    margin-top: 20px;
+    padding: 5px;
+    width: 100px;
+    box-shadow: 2px 2px black;
+}
+
+.description {
+    width: 232px;
+    font-size: 19px;
+    padding-right: 44px;
+    font-weight: bold;
+}
+
+.description a {
+    color: rgb(0, 119, 255);
+}
